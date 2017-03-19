@@ -1,3 +1,7 @@
+            # Add layers as overlayGroup
+            addPolylines(color="red", , weight = 4,  popup="PCT", , group = "PCT")  %>%
+            addMarkers(-116.4697, 32.60758, popup = "Campo", group="Southern Terminus")
+            
             # Layers control
             addLayersControl(
               baseGroups = c("MapQuestOpen.Aerial", "OpenTopoMap", "OpenMapSurfer.Roads"),
