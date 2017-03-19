@@ -1,0 +1,6 @@
+            # Layers control
+            addLayersControl(
+              baseGroups = c("MapQuestOpen.Aerial", "OpenTopoMap", "OpenMapSurfer.Roads"),
+              overlayGroups = c("PCT", "Southern Terminus", "Northern Terminus", "States"),
+              options = layersControlOptions(collapsed = FALSE)
+            ) 
